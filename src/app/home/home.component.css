@@ -1,0 +1,8 @@
+.linha {
+    width: 480px;
+}
+
+.linha button {
+    display: inline-block;
+    margin: 5px;
+}

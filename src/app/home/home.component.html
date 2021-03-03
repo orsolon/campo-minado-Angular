@@ -1,0 +1,9 @@
+        <p>{{ alunos }}</p>
+
+        <div *ngFor="let colunas of linhas" class="linha">
+            <button (click)="bombaOuBandeira(item)" *ngFor="let item of colunas">Clique Aqui</button>
+            
+        </div>
+
+        <h1> Você tem {{ pontos }} pontos </h1>
+    
